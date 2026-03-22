@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kingdomandcustody",
+  "version": "${version}",
+  "name": "Kingdom & Custody",
+  "description": "21 tiers of royal armor, programmable NPCs, and a prison hierarchy system.",
+  "authors": ["ilya814"],
+  "license": "MIT",
+  "icon": "assets/kingdomandcustody/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ilya814.kingdomandcustody.KingdomAndCustody"],
+    "client": ["com.ilya814.kingdomandcustody.client.KingdomAndCustodyClient"]
+  },
+  "mixins": ["kingdomandcustody.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
