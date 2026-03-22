@@ -1,0 +1,106 @@
+{
+  "item.kingdomandcustody.king_helmet": "King Helmet",
+  "item.kingdomandcustody.king_chestplate": "King Chestplate",
+  "item.kingdomandcustody.king_leggings": "King Leggings",
+  "item.kingdomandcustody.king_boots": "King Boots",
+
+  "item.kingdomandcustody.high_king_helmet": "High King Helmet",
+  "item.kingdomandcustody.high_king_chestplate": "High King Chestplate",
+  "item.kingdomandcustody.high_king_leggings": "High King Leggings",
+  "item.kingdomandcustody.high_king_boots": "High King Boots",
+
+  "item.kingdomandcustody.overlord_helmet": "Overlord Helmet",
+  "item.kingdomandcustody.overlord_chestplate": "Overlord Chestplate",
+  "item.kingdomandcustody.overlord_leggings": "Overlord Leggings",
+  "item.kingdomandcustody.overlord_boots": "Overlord Boots",
+
+  "item.kingdomandcustody.grand_duke_helmet": "Grand Duke Helmet",
+  "item.kingdomandcustody.grand_duke_chestplate": "Grand Duke Chestplate",
+  "item.kingdomandcustody.grand_duke_leggings": "Grand Duke Leggings",
+  "item.kingdomandcustody.grand_duke_boots": "Grand Duke Boots",
+
+  "item.kingdomandcustody.archduke_helmet": "Archduke Helmet",
+  "item.kingdomandcustody.archduke_chestplate": "Archduke Chestplate",
+  "item.kingdomandcustody.archduke_leggings": "Archduke Leggings",
+  "item.kingdomandcustody.archduke_boots": "Archduke Boots",
+
+  "item.kingdomandcustody.prince_royal_helmet": "Prince Royal Helmet",
+  "item.kingdomandcustody.prince_royal_chestplate": "Prince Royal Chestplate",
+  "item.kingdomandcustody.prince_royal_leggings": "Prince Royal Leggings",
+  "item.kingdomandcustody.prince_royal_boots": "Prince Royal Boots",
+
+  "item.kingdomandcustody.warlord_helmet": "Warlord Helmet",
+  "item.kingdomandcustody.warlord_chestplate": "Warlord Chestplate",
+  "item.kingdomandcustody.warlord_leggings": "Warlord Leggings",
+  "item.kingdomandcustody.warlord_boots": "Warlord Boots",
+
+  "item.kingdomandcustody.champion_helmet": "Champion Helmet",
+  "item.kingdomandcustody.champion_chestplate": "Champion Chestplate",
+  "item.kingdomandcustody.champion_leggings": "Champion Leggings",
+  "item.kingdomandcustody.champion_boots": "Champion Boots",
+
+  "item.kingdomandcustody.conqueror_helmet": "Conqueror Helmet",
+  "item.kingdomandcustody.conqueror_chestplate": "Conqueror Chestplate",
+  "item.kingdomandcustody.conqueror_leggings": "Conqueror Leggings",
+  "item.kingdomandcustody.conqueror_boots": "Conqueror Boots",
+
+  "item.kingdomandcustody.sovereign_helmet": "Sovereign Helmet",
+  "item.kingdomandcustody.sovereign_chestplate": "Sovereign Chestplate",
+  "item.kingdomandcustody.sovereign_leggings": "Sovereign Leggings",
+  "item.kingdomandcustody.sovereign_boots": "Sovereign Boots",
+
+  "item.kingdomandcustody.emperor_helmet": "Emperor Helmet",
+  "item.kingdomandcustody.emperor_chestplate": "Emperor Chestplate",
+  "item.kingdomandcustody.emperor_leggings": "Emperor Leggings",
+  "item.kingdomandcustody.emperor_boots": "Emperor Boots",
+
+  "item.kingdomandcustody.high_emperor_helmet": "High Emperor Helmet",
+  "item.kingdomandcustody.high_emperor_chestplate": "High Emperor Chestplate",
+  "item.kingdomandcustody.high_emperor_leggings": "High Emperor Leggings",
+  "item.kingdomandcustody.high_emperor_boots": "High Emperor Boots",
+
+  "item.kingdomandcustody.grand_emperor_helmet": "Grand Emperor Helmet",
+  "item.kingdomandcustody.grand_emperor_chestplate": "Grand Emperor Chestplate",
+  "item.kingdomandcustody.grand_emperor_leggings": "Grand Emperor Leggings",
+  "item.kingdomandcustody.grand_emperor_boots": "Grand Emperor Boots",
+
+  "item.kingdomandcustody.supreme_ruler_helmet": "Supreme Ruler Helmet",
+  "item.kingdomandcustody.supreme_ruler_chestplate": "Supreme Ruler Chestplate",
+  "item.kingdomandcustody.supreme_ruler_leggings": "Supreme Ruler Leggings",
+  "item.kingdomandcustody.supreme_ruler_boots": "Supreme Ruler Boots",
+
+  "item.kingdomandcustody.celestial_king_helmet": "Celestial King Helmet",
+  "item.kingdomandcustody.celestial_king_chestplate": "Celestial King Chestplate",
+  "item.kingdomandcustody.celestial_king_leggings": "Celestial King Leggings",
+  "item.kingdomandcustody.celestial_king_boots": "Celestial King Boots",
+
+  "item.kingdomandcustody.divine_ruler_helmet": "Divine Ruler Helmet",
+  "item.kingdomandcustody.divine_ruler_chestplate": "Divine Ruler Chestplate",
+  "item.kingdomandcustody.divine_ruler_leggings": "Divine Ruler Leggings",
+  "item.kingdomandcustody.divine_ruler_boots": "Divine Ruler Boots",
+
+  "item.kingdomandcustody.demigod_helmet": "Demigod Helmet",
+  "item.kingdomandcustody.demigod_chestplate": "Demigod Chestplate",
+  "item.kingdomandcustody.demigod_leggings": "Demigod Leggings",
+  "item.kingdomandcustody.demigod_boots": "Demigod Boots",
+
+  "item.kingdomandcustody.ancient_god_helmet": "Ancient God Helmet",
+  "item.kingdomandcustody.ancient_god_chestplate": "Ancient God Chestplate",
+  "item.kingdomandcustody.ancient_god_leggings": "Ancient God Leggings",
+  "item.kingdomandcustody.ancient_god_boots": "Ancient God Boots",
+
+  "item.kingdomandcustody.supreme_god_helmet": "Supreme God Helmet",
+  "item.kingdomandcustody.supreme_god_chestplate": "Supreme God Chestplate",
+  "item.kingdomandcustody.supreme_god_leggings": "Supreme God Leggings",
+  "item.kingdomandcustody.supreme_god_boots": "Supreme God Boots",
+
+  "item.kingdomandcustody.eternal_god_helmet": "Eternal God Helmet",
+  "item.kingdomandcustody.eternal_god_chestplate": "Eternal God Chestplate",
+  "item.kingdomandcustody.eternal_god_leggings": "Eternal God Leggings",
+  "item.kingdomandcustody.eternal_god_boots": "Eternal God Boots",
+
+  "item.kingdomandcustody.immortal_helmet": "Immortal Helmet",
+  "item.kingdomandcustody.immortal_chestplate": "Immortal Chestplate",
+  "item.kingdomandcustody.immortal_leggings": "Immortal Leggings",
+  "item.kingdomandcustody.immortal_boots": "Immortal Boots"
+}
