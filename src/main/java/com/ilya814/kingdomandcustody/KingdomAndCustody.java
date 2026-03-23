@@ -1,6 +1,7 @@
 package com.ilya814.kingdomandcustody;
 
 import com.ilya814.kingdomandcustody.armor.ModArmorMaterials;
+import com.ilya814.kingdomandcustody.commands.ModCommands;
 import com.ilya814.kingdomandcustody.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class KingdomAndCustody implements ModInitializer {
         LOGGER.info("Kingdom & Custody loading...");
         ModArmorMaterials.register();
         ModItems.register();
+        ModCommands.register();
         LOGGER.info("Kingdom & Custody loaded! Long live the King.");
     }
 }
