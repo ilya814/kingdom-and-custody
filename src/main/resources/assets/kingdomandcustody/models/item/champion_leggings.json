@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "kingdomandcustody:item/ancient_god_boots"
+    "layer0": "kingdomandcustody:item/champion_leggings"
   }
 }
