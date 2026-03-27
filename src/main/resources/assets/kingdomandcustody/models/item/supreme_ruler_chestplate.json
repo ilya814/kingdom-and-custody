@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kingdomandcustody:item/supreme_ruler_chestplate"
+  }
+}
