@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:noble_ingot"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:champion_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "kingdomandcustody:celestial_ore"
+  },
+  "result": {
+    "id": "kingdomandcustody:celestial_fragment"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

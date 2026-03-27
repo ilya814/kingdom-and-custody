@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:void_shard"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:supreme_ruler_boots",
+    "count": 1
+  }
+}

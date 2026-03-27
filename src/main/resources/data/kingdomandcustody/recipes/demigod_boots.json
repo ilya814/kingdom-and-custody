@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:celestial_fragment"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:demigod_boots",
+    "count": 1
+  }
+}

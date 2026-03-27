@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:royal_ingot"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:king_helmet",
+    "count": 1
+  }
+}

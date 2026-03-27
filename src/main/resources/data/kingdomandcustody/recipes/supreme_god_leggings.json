@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:celestial_fragment"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:supreme_god_leggings",
+    "count": 1
+  }
+}

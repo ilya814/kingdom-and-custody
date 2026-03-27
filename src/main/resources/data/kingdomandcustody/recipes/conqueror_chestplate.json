@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:divine_ingot"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:conqueror_chestplate",
+    "count": 1
+  }
+}

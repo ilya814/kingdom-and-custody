@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:celestial_fragment"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:eternal_god_chestplate",
+    "count": 1
+  }
+}

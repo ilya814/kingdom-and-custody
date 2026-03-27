@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "kingdomandcustody:void_ore"
+  },
+  "result": {
+    "id": "kingdomandcustody:void_shard"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

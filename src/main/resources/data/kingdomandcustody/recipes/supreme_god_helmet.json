@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "kingdomandcustody:celestial_fragment"
+    }
+  },
+  "result": {
+    "id": "kingdomandcustody:supreme_god_helmet",
+    "count": 1
+  }
+}
