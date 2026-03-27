@@ -2,7 +2,11 @@
   "required": true,
   "package": "com.ilya814.kingdomandcustody.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "LeverMixin"
+  ],
   "client": [],
-  "injectors": { "defaultRequire": 1 }
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
