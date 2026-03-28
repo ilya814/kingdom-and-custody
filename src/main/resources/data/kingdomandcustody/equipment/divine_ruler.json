@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:divine_ruler"
+    }
+  ],
+  "defense": {
+    "helmet": 19,
+    "chestplate": 31,
+    "leggings": 23,
+    "boots": 19
+  },
+  "toughness": 5.0,
+  "knockback_resistance": 0.25,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
