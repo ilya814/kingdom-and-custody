@@ -19,7 +19,7 @@ public class KeyItem extends Item {
     public InteractionResult useOn(UseOnContext ctx) {
         Level level = ctx.getLevel();
         BlockPos pos = ctx.getClickedPos().relative(ctx.getClickedFace());
-        if (!level.isClientSide && level.isEmptyBlock(pos)) {
+        if (!level.isClientSide() && level.isEmptyBlock(pos)) {
             level.setBlockAndUpdate(pos, ModBlocks.KEY_SIGNAL_BLOCK.defaultBlockState());
             ctx.getItemInHand().shrink(1);
             return InteractionResult.SUCCESS;
