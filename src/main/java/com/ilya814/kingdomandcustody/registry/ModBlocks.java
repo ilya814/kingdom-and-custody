@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final Block KEY_SIGNAL_BLOCK = reg("key_signal_block",
         new KeySignalBlock(BlockBehaviour.Properties.of()
-            .strength(0f).noCollission().noLootTable().lightLevel(s -> 5)));
+            .strength(0f).noOcclusion().noLootTable().lightLevel(s -> 5)));
 
     public static final Block ROYAL_ORE    = reg("royal_ore",    ore(MapColor.GOLD, 3f));
     public static final Block NOBLE_ORE    = reg("noble_ore",    ore(MapColor.COLOR_PURPLE, 4f));
