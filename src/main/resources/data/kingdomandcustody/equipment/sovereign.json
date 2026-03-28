@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:sovereign"
+    }
+  ],
+  "defense": {
+    "helmet": 16,
+    "chestplate": 25,
+    "leggings": 19,
+    "boots": 16
+  },
+  "toughness": 4.4,
+  "knockback_resistance": 0.19,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
