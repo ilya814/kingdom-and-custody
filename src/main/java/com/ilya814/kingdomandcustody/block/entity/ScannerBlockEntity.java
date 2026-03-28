@@ -3,6 +3,8 @@ package com.ilya814.kingdomandcustody.block.entity;
 import com.ilya814.kingdomandcustody.block.ScannerBlock;
 import com.ilya814.kingdomandcustody.registry.ModBlocks;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
@@ -12,8 +14,6 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.AABB;
-import net.minecraft.util.ValueInput;
-import net.minecraft.util.ValueOutput;
 import java.util.*;
 
 public class ScannerBlockEntity extends BlockEntity {
@@ -83,23 +83,20 @@ public class ScannerBlockEntity extends BlockEntity {
     }
 
     @Override
-    protected void saveAdditional(ValueOutput output) {
-        super.saveAdditional(output);
-        if (pos1 != null) { output.putInt("p1x", pos1.getX()); output.putInt("p1y", pos1.getY()); output.putInt("p1z", pos1.getZ()); }
-        if (pos2 != null) { output.putInt("p2x", pos2.getX()); output.putInt("p2y", pos2.getY()); output.putInt("p2z", pos2.getZ()); }
-        if (pairedLeverPos != null) { output.putInt("lx", pairedLeverPos.getX()); output.putInt("ly", pairedLeverPos.getY()); output.putInt("lz", pairedLeverPos.getZ()); }
-        output.putBoolean("powered", powered);
+    protected void saveAdditional(CompoundTag tag, HolderLookup.Provider reg) {
+        super.saveAdditional(tag, reg);
+        if (pos1 != null) { tag.putInt("p1x", pos1.getX()); tag.putInt("p1y", pos1.getY()); tag.putInt("p1z", pos1.getZ()); }
+        if (pos2 != null) { tag.putInt("p2x", pos2.getX()); tag.putInt("p2y", pos2.getY()); tag.putInt("p2z", pos2.getZ()); }
+        if (pairedLeverPos != null) { tag.putInt("lx", pairedLeverPos.getX()); tag.putInt("ly", pairedLeverPos.getY()); tag.putInt("lz", pairedLeverPos.getZ()); }
+        tag.putBoolean("powered", powered);
     }
 
     @Override
-    protected void loadAdditional(ValueInput input) {
-        super.loadAdditional(input);
-        Optional<Integer> p1x = input.getInt("p1x");
-        if (p1x.isPresent()) pos1 = new BlockPos(p1x.get(), input.getInt("p1y").orElse(0), input.getInt("p1z").orElse(0));
-        Optional<Integer> p2x = input.getInt("p2x");
-        if (p2x.isPresent()) pos2 = new BlockPos(p2x.get(), input.getInt("p2y").orElse(0), input.getInt("p2z").orElse(0));
-        Optional<Integer> lx = input.getInt("lx");
-        if (lx.isPresent()) pairedLeverPos = new BlockPos(lx.get(), input.getInt("ly").orElse(0), input.getInt("lz").orElse(0));
-        powered = input.getBoolean("powered").orElse(false);
+    protected void loadAdditional(CompoundTag tag, HolderLookup.Provider reg) {
+        super.loadAdditional(tag, reg);
+        if (tag.contains("p1x")) pos1 = new BlockPos(tag.getInt("p1x"), tag.getInt("p1y"), tag.getInt("p1z"));
+        if (tag.contains("p2x")) pos2 = new BlockPos(tag.getInt("p2x"), tag.getInt("p2y"), tag.getInt("p2z"));
+        if (tag.contains("lx")) pairedLeverPos = new BlockPos(tag.getInt("lx"), tag.getInt("ly"), tag.getInt("lz"));
+        powered = tag.getBoolean("powered");
     }
 }
