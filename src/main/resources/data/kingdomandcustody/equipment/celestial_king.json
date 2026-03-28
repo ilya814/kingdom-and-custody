@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:celestial_king"
+    }
+  ],
+  "defense": {
+    "helmet": 18,
+    "chestplate": 30,
+    "leggings": 23,
+    "boots": 18
+  },
+  "toughness": 4.9,
+  "knockback_resistance": 0.24,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
