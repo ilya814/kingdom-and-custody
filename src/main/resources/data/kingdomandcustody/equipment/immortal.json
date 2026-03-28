@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:immortal"
+    }
+  ],
+  "defense": {
+    "helmet": 30,
+    "chestplate": 50,
+    "leggings": 40,
+    "boots": 30
+  },
+  "toughness": 10.0,
+  "knockback_resistance": 1.0,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
