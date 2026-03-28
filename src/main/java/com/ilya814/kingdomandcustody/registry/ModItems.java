@@ -46,7 +46,6 @@ public class ModItems {
                 ResourceLocation.fromNamespaceAndPath(KingdomAndCustody.MOD_ID, "key_" + i), key);
         }
 
-        // Ore block items
         for (String name : new String[]{"royal_ore","noble_ore","divine_ore","void_ore","celestial_ore","scanner_block"}) {
             var block = BuiltInRegistries.BLOCK.get(
                 ResourceLocation.fromNamespaceAndPath(KingdomAndCustody.MOD_ID, name));
