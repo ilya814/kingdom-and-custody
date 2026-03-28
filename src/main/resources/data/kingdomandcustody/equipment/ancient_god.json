@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:ancient_god"
+    }
+  ],
+  "defense": {
+    "helmet": 20,
+    "chestplate": 33,
+    "leggings": 25,
+    "boots": 20
+  },
+  "toughness": 5.2,
+  "knockback_resistance": 0.27,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
