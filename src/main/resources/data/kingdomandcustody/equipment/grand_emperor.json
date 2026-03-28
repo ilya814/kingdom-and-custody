@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:grand_emperor"
+    }
+  ],
+  "defense": {
+    "helmet": 17,
+    "chestplate": 28,
+    "leggings": 21,
+    "boots": 17
+  },
+  "toughness": 4.7,
+  "knockback_resistance": 0.22,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
