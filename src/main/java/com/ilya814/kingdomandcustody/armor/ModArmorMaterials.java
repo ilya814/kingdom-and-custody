@@ -9,7 +9,6 @@ import java.util.EnumMap;
 import java.util.Map;
 
 public class ModArmorMaterials {
-
     public static final Map<ArmorTier, ResourceKey<ArmorMaterial>> KEYS = new EnumMap<>(ArmorTier.class);
 
     public static void register() {
