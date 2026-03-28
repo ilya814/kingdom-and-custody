@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:archduke"
+    }
+  ],
+  "defense": {
+    "helmet": 13,
+    "chestplate": 20,
+    "leggings": 16,
+    "boots": 13
+  },
+  "toughness": 3.9,
+  "knockback_resistance": 0.14,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
