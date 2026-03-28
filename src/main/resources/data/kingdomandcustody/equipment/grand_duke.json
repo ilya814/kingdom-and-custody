@@ -1,0 +1,17 @@
+{
+  "layers": [
+    {
+      "texture": "kingdomandcustody:grand_duke"
+    }
+  ],
+  "defense": {
+    "helmet": 13,
+    "chestplate": 19,
+    "leggings": 15,
+    "boots": 13
+  },
+  "toughness": 3.8,
+  "knockback_resistance": 0.13,
+  "enchantment_value": 15,
+  "equip_sound": "minecraft:item.armor.equip_netherite"
+}
