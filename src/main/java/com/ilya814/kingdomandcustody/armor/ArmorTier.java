@@ -1,16 +1,5 @@
 package com.ilya814.kingdomandcustody.armor;
 
-import net.minecraft.world.item.equipment.ArmorMaterial;
-import net.minecraft.world.item.equipment.ArmorType;
-import net.minecraft.world.item.equipment.ArmorMaterial.Layer;
-
-import java.util.List;
-
-/**
- * All 21 armor tiers for Kingdom & Custody.
- * Stats scale from King (just above Netherite) up to Eternal God.
- * Immortal is granted via command only and has special handling.
- */
 public enum ArmorTier {
     KING            (1,  "king",           11, 16, 13, 11, 3.5f, 0.1f),
     HIGH_KING       (2,  "high_king",      12, 17, 14, 12, 3.6f, 0.11f),
@@ -32,27 +21,18 @@ public enum ArmorTier {
     ANCIENT_GOD     (18, "ancient_god",    20, 33, 25, 20, 5.2f, 0.27f),
     SUPREME_GOD     (19, "supreme_god",    20, 34, 25, 20, 5.3f, 0.28f),
     ETERNAL_GOD     (20, "eternal_god",    21, 35, 26, 21, 5.4f, 0.29f),
-    IMMORTAL        (21, "immortal",       30, 50, 40, 30, 10.0f, 1.0f); // command-only
+    IMMORTAL        (21, "immortal",       30, 50, 40, 30, 10.0f, 1.0f);
 
     public final int tier;
     public final String id;
-    public final int bootsProtection;
-    public final int chestplateProtection;
-    public final int leggingsProtection;
-    public final int helmetProtection;
-    public final float toughness;
-    public final float knockbackResistance;
+    public final int helmetDef, chestDef, legsDef, bootsDef;
+    public final float toughness, kbRes;
 
-    ArmorTier(int tier, String id,
-              int boots, int chest, int legs, int helmet,
+    ArmorTier(int tier, String id, int boots, int chest, int legs, int helmet,
               float toughness, float kbRes) {
-        this.tier = tier;
-        this.id = id;
-        this.bootsProtection = boots;
-        this.chestplateProtection = chest;
-        this.leggingsProtection = legs;
-        this.helmetProtection = helmet;
-        this.toughness = toughness;
-        this.knockbackResistance = kbRes;
+        this.tier = tier; this.id = id;
+        this.helmetDef = helmet; this.chestDef = chest;
+        this.legsDef = legs; this.bootsDef = boots;
+        this.toughness = toughness; this.kbRes = kbRes;
     }
 }
