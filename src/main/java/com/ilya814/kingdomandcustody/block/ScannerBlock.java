@@ -23,7 +23,7 @@ public class ScannerBlock extends BaseEntityBlock {
 
     public static final MapCodec<ScannerBlock> CODEC = simpleCodec(ScannerBlock::new);
     public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
-    public static final DirectionProperty FACING = BlockStateProperties.FACING;
+    public static final EnumProperty<Direction> FACING = BlockStateProperties.FACING;
 
     public ScannerBlock(Properties props) {
         super(props);
